@@ -20,4 +20,9 @@ export const Button = styled.button`
   color: rgb(222, 206, 169);
   background-color: #252124;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  &:hover {
+    transform: scale(1.05);
+    background: rgb(104 91 101);
+    box-shadow: 5px 3px 10px 1px;
+  }
 `;
